@@ -27,7 +27,7 @@ function getJson() {
                     html += `<div class="popup">
                     <div class="row">
                 <div class = "card column mt-4 mb-4 mr-4 ml-4"
-                style = "width:295px" >
+                style = "width:295px; height: 100%" >
                   <div class = "card-body" style="background:#D0D0D0">
                   <h1 class = "card-title" style="color:black;" >${data[i].country}</h1>
 
@@ -47,7 +47,7 @@ function getJson() {
                 if (i % 3 == 1) {
                     html += `
                 <div class = "card column mt-4 mb-4 mr-4 ml-4"
-                style = "width:295px" >
+                style = "width:295px; height: 100%" >
                 <div class = "card-body" style="background:#D0D0D0">
                   <h1 class = "card-title" style="color:black;" >${data[i].country}</h1>
 
@@ -67,7 +67,7 @@ function getJson() {
                 if (i % 3 == 2) {
                     html += `
                 <div class = "card column mt-4 mb-4 mr-4 ml-4"
-                style = "width:295px" >
+                style = "width:295px; height: 100%" >
                 <div class = "card-body" style="background:#D0D0D0">
                   <h1 class = "card-title" style="color:black;" >${data[i].country}</h1>
 

@@ -303,6 +303,13 @@ progress {
 [type="search"]::-webkit-search-decoration {
     -webkit-appearance: none;
 }
+
+#searchbar{ 
+    padding:10px; 
+    border-radius: 10px; 
+    width: 30%;
+} 
+
 ::-webkit-file-upload-button {
     font: inherit;
     -webkit-appearance: button;
