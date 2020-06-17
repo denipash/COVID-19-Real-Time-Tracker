@@ -4356,11 +4356,11 @@ input[type="submit"].btn-block {
 .card-body {
     -ms-flex: 1 1 auto;
     flex: 1 1 auto;
-    min-height: 1px;
-    padding: 1.25rem;
+    min-height: 2px;
+    padding: 1.65rem;
 }
 .card-title {
-    margin-bottom: 0.75rem;
+    margin-bottom: 0.95rem;
 }
 .card-subtitle {
     margin-top: -0.375rem;
