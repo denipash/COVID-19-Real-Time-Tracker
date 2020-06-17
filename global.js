@@ -31,21 +31,21 @@ function getJson() {
             <div class="row"> <div class="card column mt-4 mb-4 mr-4 ml-4" style="width: 18rem;">
   <div class="card-body">
     <h5 class="card-title">Card title</h5>
-    <h6 class="card-subtitle mb-2 text-muted">Total Cases : ${confirmed}</h6>   
+    <h6 class="card-subtitle mb-2 text-light">Total Cases : ${confirmed}</h6>   
   </div>
 </div>`;
             html += `
  <div class="card column mt-4 mb-4 mr-4 ml-4" style="width: 18rem;">
 <div class="card-body">
 <h5 class="card-title">Card title</h5>
-<h6 class="card-subtitle mb-2 text-muted">Total Deaths : ${deaths}</h6>   
+<h6 class="card-subtitle mb-2 text-light">Total Deaths : ${deaths}</h6>   
 </div>
 </div>`;
             html += `
  <div class="card column mt-4 mb-4 mr-4 ml-4" style="width: 18rem;">
 <div class="card-body">
 <h5 class="card-title">Card title</h5>
-<h6 class="card-subtitle mb-2 text-muted">Total Recovered : ${recovered}</h6>   
+<h6 class="card-subtitle mb-2 text-light">Total Recovered : ${recovered}</h6>   
 </div>
 </div>
 </div>`;
@@ -53,19 +53,19 @@ function getJson() {
 <div class="row"> <div class="card column mt-4 mb-4 mr-4 ml-4" style="width: 18rem;">
 <div class="card-body">
 <h5 class="card-title">Card title</h5>
-<h6 class="card-subtitle mb-2 text-muted">Critical Cases : ${critical}</h6>   
+<h6 class="card-subtitle mb-2 text-light">Critical Cases : ${critical}</h6>   
 </div>
 </div>`;
             html += `<div class="card column mt-4 mb-4 mr-4 ml-4" style="width: 18rem;">
 <div class="card-body">
 <h5 class="card-title">Card title</h5>
-<h6 class="card-subtitle mb-2 text-muted">Total Deaths Today : ${deathstoday}</h6>   
+<h6 class="card-subtitle mb-2 text-light">Total Deaths Today : ${deathstoday}</h6>   
 </div>
 </div>`;
             html += ` <div class="card column mt-4 mb-4 mr-4 ml-4" style="width: 18rem;">
 <div class="card-body">
 <h5 class="card-title">Card title</h5>
-<h6 class="card-subtitle mb-2 text-muted">Total Cases Today : ${casesToday}</h6>   
+<h6 class="card-subtitle mb-2 text-light">Total Cases Today : ${casesToday}</h6>   
 </div>
 </div>
 </div>`;
@@ -73,21 +73,21 @@ html += `
 <div class="row"> <div class="card column mt-4 mb-4 mr-4 ml-4" style="width: 18rem;">
 <div class="card-body">
 <h5 class="card-title">Card title</h5>
-<h6 class="card-subtitle mb-2 text-muted">Death percentage: ${deathpercent}</h6>   
+<h6 class="card-subtitle mb-2 text-light">Death percentage: ${deathpercent}</h6>   
 </div> 
 </div>`;
 
 html += `<div class="card column mt-4 mb-4 mr-4 ml-4" style="width: 18rem;">
 <div class="card-body">
 <h5 class="card-title">Card title</h5>
-<h6 class="card-subtitle mb-2 text-muted">Recovery percentage : ${recoveredpercent}</h6>   
+<h6 class="card-subtitle mb-2 text-light">Recovery percentage : ${recoveredpercent}</h6>   
 </div>
 </div>`;
 
 html += `<div class="card column mt-4 mb-4 mr-4 ml-4" style="width: 18rem;">
 <div class="card-body">
 <h5 class="card-title">Card title</h5>
-<h6 class="card-subtitle mb-2 text-muted">Total Countries Effected  : ${places}</h6>   
+<h6 class="card-subtitle mb-2 text-light">Total Countries Effected  : ${places}</h6>   
 </div>
 </div>
 </div>`;
