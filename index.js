@@ -28,15 +28,15 @@ function getJson() {
                     <div class="row">
                 <div class = "card column mt-4 mb-4 mr-4 ml-4"
                 style = "width:295px; height: 100%" >
-                  <div class = "card-body" style="background:#D0D0D0">
-                  <h1 class = "card-title" style="color:black;" >${data[i].country}</h1>
+                  <div class = "card-body" style="background:#111525">
+                  <h2 class = "card-title" style="color:white;" >${data[i].country}</h2>
 
-                  <h4 class = "card-title text-dark" > Confirmed Cases :${data[i].cases} </h4> 
-                  <h4 class = "card-title text-dark" > Deaths :${data[i].deaths} </h4> 
-                  <h4 class = "card-title text-dark" > Recovered :${data[i].recovered} </h4> 
-                  <h4 class = "card-title text-dark" > Today Cases :${data[i].todayCases} </h4> 
-                  <h4 class = "card-title text-dark" > Today Deaths :${data[i].todayDeaths} </h4> 
-                  <h4 class = "card-title text-dark" > Critical :${data[i].critical} </h4> 
+                  <h3 class = "card-title text-light" > Total Cases :${data[i].cases} </h3> 
+                  <h3 class = "card-title text-light" > Deaths :${data[i].deaths} </h3> 
+                  <h3 class = "card-title text-light" > Recovered Patients:${data[i].recovered} </h3> 
+                  <h3 class = "card-title text-light" > Cases Today :${data[i].todayCases} </h3> 
+                  <h3 class = "card-title text-light" > Deaths Today :${data[i].todayDeaths} </h3> 
+                  <h3 class = "card-title text-light" > Critical Condition Patients :${data[i].critical} </h3> 
   
                   </div> 
                  </div>
@@ -48,15 +48,15 @@ function getJson() {
                     html += `
                 <div class = "card column mt-4 mb-4 mr-4 ml-4"
                 style = "width:295px; height: 100%" >
-                <div class = "card-body" style="background:#D0D0D0">
-                  <h1 class = "card-title" style="color:black;" >${data[i].country}</h1>
+                <div class = "card-body" style="background:#111525">
+                  <h2 class = "card-title" style="color:white;" >${data[i].country}</h2>
 
-                  <h4 class = "card-title text-dark" > Confirmed Cases :${data[i].cases} </h4> 
-                  <h4 class = "card-title text-dark" > Deaths :${data[i].deaths} </h4> 
-                  <h4 class = "card-title text-dark" > Recovered :${data[i].recovered} </h4> 
-                  <h4 class = "card-title text-dark" > Today Cases :${data[i].todayCases} </h4> 
-                  <h4 class = "card-title text-dark" > Today Deaths :${data[i].todayDeaths} </h4> 
-                  <h4 class = "card-title text-dark" > Critical :${data[i].critical} </h4> 
+                  <h3 class = "card-title text-light" > Total Cases :${data[i].cases} </h3> 
+                  <h3 class = "card-title text-light" > Deaths :${data[i].deaths} </h3> 
+                  <h3 class = "card-title text-light" > Recovered Patients :${data[i].recovered} </h3> 
+                  <h3 class = "card-title text-light" > Cases Today :${data[i].todayCases} </h3> 
+                  <h3 class = "card-title text-light" > Deaths Today :${data[i].todayDeaths} </h3> 
+                  <h3 class = "card-title text-light" > Critical Condition Patients :${data[i].critical} </h3> 
   
 
                 </div> 
@@ -68,15 +68,15 @@ function getJson() {
                     html += `
                 <div class = "card column mt-4 mb-4 mr-4 ml-4"
                 style = "width:295px; height: 100%" >
-                <div class = "card-body" style="background:#D0D0D0">
-                  <h1 class = "card-title" style="color:black;" >${data[i].country}</h1>
+                <div class = "card-body" style="background:#111525">
+                  <h2 class = "card-title" style="color:white;" >${data[i].country}</h2>
 
-                  <h4 class = "card-title text-dark" > Confirmed Cases :${data[i].cases} </h4> 
-                  <h4 class = "card-title text-dark" > Deaths :${data[i].deaths} </h4> 
-                  <h4 class = "card-title text-dark" > Recovered :${data[i].recovered} </h4> 
-                  <h4 class = "card-title text-dark" > Today Cases :${data[i].todayCases} </h4> 
-                  <h4 class = "card-title text-dark" > Today Deaths :${data[i].todayDeaths} </h4> 
-                  <h4 class = "card-title text-dark" > Critical :${data[i].critical} </h4> 
+                  <h3 class = "card-title text-light" > Total Cases :${data[i].cases} </h3> 
+                  <h3 class = "card-title text-light" > Deaths :${data[i].deaths} </h3> 
+                  <h3 class = "card-title text-light" > Recovered Patients :${data[i].recovered} </h3> 
+                  <h3 class = "card-title text-light" > Cases Today :${data[i].todayCases} </h3> 
+                  <h3 class = "card-title text-light" > Deaths Today :${data[i].todayDeaths} </h3> 
+                  <h3 class = "card-title text-light" > Critical Condition Patients :${data[i].critical} </h3> 
   
                   </div> 
                   </div>
