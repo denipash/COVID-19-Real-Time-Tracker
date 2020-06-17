@@ -1,46 +1,41 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
-
-<head>
+	<head>
+        <title>COVID-19 Real-Time Tracker</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Country-Specific Statistics</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cabin:700">
-    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
-</head>
+     	<script src="js/skel.min.js"></script>
+		<script src="js/skel-panels.min.js"></script>
+		<script src="js/init.js"></script>
+	</head>
+	<body class="homepage">
 
-<body style="background: url('assets/img/backgroun.png') no-repeat center center fixed;
-background-size: 100% 100%; 
-">
-    <nav class="navbar navbar-light navbar-expand-md navbar navbar-expand-lg fixed-top" id="mainNav">
-        <div class="container"><a class="navbar-brand js-scroll-trigger" href="#">Coronavirus Tracker </a><button data-toggle="collapse" class="navbar-toggler navbar-toggler-right" data-target="#navbarResponsive" type="button" aria-controls="navbarResponsive" aria-expanded="false"
-                aria-label="Toggle navigation" value="Menu"><i class="fa fa-bars"></i></button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="nav navbar-nav ml-auto">
-                    <li class="nav-item nav-link js-scroll-trigger" role="presentation"><a class="nav-link js-scroll-trigger" href="index.html">Country-wise Analysis</a></li>
-                    <li class="nav-item nav-link js-scroll-trigger" role="presentation"><a class="nav-link js-scroll-trigger" href="global.html">Global Analysis</a></li>
-                    <li class="nav-item nav-link js-scroll-trigger" role="presentation"><a class="nav-link js-scroll-trigger" href="hospitalization.html">Testing Analysis (US)</a></li>
-                </ul>
+		<div id="header">
+		
+        	<div id="header" class="container">
+            
+                <div id="logo"><img src="https://i.ibb.co/vs8cKxj/ourlogo.png" style="width:325px;height:165px;"> </div>
+                <nav id="nav">
+                    <ul>
+                        <li><a href="home.html"class="button">Home</a></li>
+                        <li class="current_page_item"><a href="index.html" class="button" >Country Analysis</a></li>
+                        <li><a href="global.html"class="button">Global Chart Analysis</a></li>
+                        <li><a href="hospitalization.html"class="button">U.S. States Analysis</a></li>
+                    </ul>
+                </nav>
+                
             </div>
+
         </div>
-    </nav>
-    <div class="container" style="margin-top:150px;margin-bottom:100px">
-        <input id="searchbar" onkeyup="search()" type="text" name="search" placeholder="Search Country..."> 
+        
+        <div class="container" style="margin-top:20px;margin-right:180px;margin-bottom:120px">
+            <input id="searchbar" onkeyup="search()" type="text" name="search"  placeholder="Search Country..." >> 
+            <div id="virus"> </div>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+        <script src="index.js"></script>
+        <script src="searchCountry.js"></script>
 
-        <div id="virus"> </div>
-    </div>
-    <footer>
-    
-    </footer>
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-    <script src="assets/js/grayscale.js"></script>
-    <script src="index.js"></script>
-    <script src="searchCountry.js"></script>
-
-</body>
-
+	</body>
 </html>
