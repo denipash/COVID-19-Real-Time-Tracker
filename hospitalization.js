@@ -25,17 +25,17 @@ function getJson() {
 
                     html += `<div class="popup">
                     <div class="row">
-                <div class = "card column mt-4 mb-4 mr-4 ml-4"
-                style = "width:295px; height: 100%" >
-                  <div class = "card-body" style="background:#D0D0D0">
-                  <h1 class = "card-title" style="color:black;" >${data[i].state}</h1>
-
-                  <h4 class = "card-title text-dark" > Tested Positive :${data[i].positive} </h4> 
-                  <h4 class = "card-title text-dark" > Tested Negative :${data[i].negative} </h4> 
-                  <h4 class = "card-title text-dark" > Pending Results :${data[i].pending} </h4> 
-                  <h4 class = "card-title text-dark" > Currently Hospitalized :${data[i].hospitalizedCurrently} </h4> 
-                  <h4 class = "card-title text-dark" > Data Quality Grade :${data[i].dataQualityGrade} </h4> 
-
+                 <div class = "card column mt-4 mb-4 mr-4 ml-4"
+                    style = "width:295px; height: 100%" >
+                      <div class = "card-body" style="background:#111525">
+                      <h2 class = "card-title" style="color:white;" >${data[i].state}</h2>
+    
+                      <h3 class = "card-title text-light" > Tested Positive :${data[i].positive} </h3> 
+                      <h3 class = "card-title text-light" > Tested Negative :${data[i].negative} </h3> 
+                      <h3 class = "card-title text-light" > Pending Results :${data[i].pending} </h3> 
+                      <h3 class = "card-title text-light" > Currently Hospitalized :${data[i].hospitalizedCurrently} </h3> 
+                      <h3 class = "card-title text-light" > Data Quality Grade :${data[i].dataQualityGrade} </h3> 
+    
                   </div> 
                  </div>
                 
@@ -45,16 +45,16 @@ function getJson() {
                 if (i % 3 == 1) {
                     html += `
                 <div class = "card column mt-4 mb-4 mr-4 ml-4"
-                style = "width:295px; height: 100%" >
-                <div class = "card-body" style="background:#D0D0D0">
-                  <h1 class = "card-title" style="color:black;" >${data[i].state}</h1>
-
-                  <h4 class = "card-title text-dark" > Tested Positive :${data[i].positive} </h4> 
-                  <h4 class = "card-title text-dark" > Tested Negative :${data[i].negative} </h4> 
-                  <h4 class = "card-title text-dark" > Pending Results :${data[i].pending} </h4> 
-                  <h4 class = "card-title text-dark" > Currently Hospitalized :${data[i].hospitalizedCurrently} </h4> 
-                  <h4 class = "card-title text-dark" > Data Quality Grade :${data[i].dataQualityGrade} </h4> 
-                  
+                    style = "width:295px; height: 100%" >
+                      <div class = "card-body" style="background:#111525">
+                      <h2 class = "card-title" style="color:white;" >${data[i].state}</h2>
+    
+                      <h3 class = "card-title text-light" > Tested Positive :${data[i].positive} </h3> 
+                      <h3 class = "card-title text-light" > Tested Negative :${data[i].negative} </h3> 
+                      <h3 class = "card-title text-light" > Pending Results :${data[i].pending} </h3> 
+                      <h3 class = "card-title text-light" > Currently Hospitalized :${data[i].hospitalizedCurrently} </h3> 
+                      <h3 class = "card-title text-light" > Data Quality Grade :${data[i].dataQualityGrade} </h3> 
+                    
                 </div> 
                   </div>
                 `;
@@ -63,16 +63,16 @@ function getJson() {
                 if (i % 3 == 2) {
                     html += `
                 <div class = "card column mt-4 mb-4 mr-4 ml-4"
-                style = "width:295px; height: 100%" >
-                <div class = "card-body" style="background:#D0D0D0">
-                <h1 class = "card-title" style="color:black;" >${data[i].state}</h1>
-
-                <h4 class = "card-title text-dark" > Tested Positive :${data[i].positive} </h4> 
-                <h4 class = "card-title text-dark" > Tested Negative :${data[i].negative} </h4> 
-                <h4 class = "card-title text-dark" > Pending Results :${data[i].pending} </h4> 
-                <h4 class = "card-title text-dark" > Currently Hospitalized :${data[i].hospitalizedCurrently} </h4> 
-                <h4 class = "card-title text-dark" > Data Quality Grade :${data[i].dataQualityGrade} </h4> 
-                
+                    style = "width:295px; height: 100%" >
+                      <div class = "card-body" style="background:#111525">
+                      <h2 class = "card-title" style="color:white;" >${data[i].state}</h2>
+    
+                      <h3 class = "card-title text-light" > Tested Positive :${data[i].positive} </h3> 
+                      <h3 class = "card-title text-light" > Tested Negative :${data[i].negative} </h3> 
+                      <h3 class = "card-title text-light" > Pending Results :${data[i].pending} </h3> 
+                      <h3 class = "card-title text-light" > Currently Hospitalized :${data[i].hospitalizedCurrently} </h3> 
+                      <h3 class = "card-title text-light" > Data Quality Grade :${data[i].dataQualityGrade} </h3> 
+                    
                   </div> 
                   </div>
                   </div>

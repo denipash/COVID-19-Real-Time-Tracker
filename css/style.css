@@ -16,7 +16,6 @@ body, #skel-panels-pageWrapper
 {
 	background: url(../images/banner.jpg) no-repeat center top fixed;
     color: #ffffff;
-
 }
 
 h1, h2, h3 {
@@ -28,23 +27,27 @@ h1, h2, h3 {
 
 h2
 {
-	letter-spacing: -1px;
-	font-size: 2.00em;
+	letter-spacing: 1.5px;
+	font-size: 2.2em;
 }
 
 p, ol, ul
 {
 	margin-top: 1em;
+	
 }
 
 p
 {
+	letter-spacing: 2.5px;
+	font-size: 1.02em;
 }
 
 a
 {
 	text-decoration: underline;
 	color: #ffffff;
+	
 }
 
 a:hover
@@ -134,13 +137,11 @@ a:hover
 		top: 0;
 		width: 100%;
 		height: 100%;
-		background: rgba(60,50,70,0.5);
 	}
 	
 	#header {
 		position: relative;
 		z-index: 1;
-		
 	}
 	
 	header
@@ -154,15 +155,8 @@ a:hover
 		display: block;
 		margin: 0;
 		padding: 0;
-	}
+		font-weight: 290;
 
-	header .byline
-	{
-		display: block;
-		margin: 1.50em 0em;
-		line-height: 2em;
-		font-weight: 200;
-		color: rgba(255,255,255,.8);
 	}
 
 /* Banner */
@@ -186,7 +180,7 @@ a:hover
 	#banner header .byline
 	{
 		padding: 0em 5em;
-		font-size: 1.50em;
+		font-size: 1.70em;
 	}
 	
 	#banner .button
